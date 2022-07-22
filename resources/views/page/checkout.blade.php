@@ -112,7 +112,7 @@
             </div>
 
             <div class="text-center">
-              <button type="submit" class="beta-btn primary">Đặt hàng <i class="fa fa-chevron-right"></i></button>
+              <button type="submit" name="redirect" class="beta-btn primary">Đặt hàng <i class="fa fa-chevron-right"></i></button>
             </div>
           </div> <!-- .your-order -->
         </div>
