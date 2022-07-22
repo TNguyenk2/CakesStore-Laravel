@@ -78,7 +78,7 @@
                   <p class="your-order-f18">Tổng:</p>
                 </div>
                 <div class="pull-right">
-                  <h5 class="color-black">@if(Session::has('cart')){{number_format($totalPrice)}}@else 0 @endif đồng
+                  <h5 class="color-black">@if(Session::has('cart'))<input type ="text" name = "tongtien" value="{{$totalPrice}}"> @else 0 @endif đồng
                   </h5>
                 </div>
                 <div class="clearfix"></div>

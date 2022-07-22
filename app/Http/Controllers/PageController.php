@@ -234,7 +234,7 @@ class PageController extends Controller
             $vnp_TxnRef = date("YmdHis"); //Mã đơn hàng. Trong thực tế Merchant cần insert đơn hàng vào DB và gửi mã này sang VNPAY
             $vnp_OrderInfo = "Thanh toán hóa đơn phí dich vụ";
             $vnp_OrderType = 'billpayment';
-            $vnp_Amount = $bill->total * 100;
+            $vnp_Amount = $_POST['tongtien'] * 100;
             $vnp_Locale = 'vn';
             $vnp_IpAddr = request()->ip();
 
